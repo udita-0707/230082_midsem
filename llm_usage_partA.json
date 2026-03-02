@@ -1,1 +1,133 @@
+{
+  "student_metadata": {
+    "name": "Udita",
+    "roll_number": "230082",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part A",
+    "submission_date": "2026-03-02"
+  },
 
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "provider": "OpenAI"
+    }
+  ],
+
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Finding a classical ML paper that satisfies all Part A constraints",
+      "prompt": "Suggest a classical machine learning paper from 2009–2012 that is methodological, aligned with SVM/GMM/Time Series, and feasible to reproduce on a CPU-only laptop.",
+      "llm_response_used": "Yes",
+      "how_it_helped": "It gave me multiple candidate papers and helped narrow down options that were methodologically strong but not overly theoretical.",
+      "student_verification": "I checked each suggested paper’s official publication venue and year using the CORE ranking list and publisher websites.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Evaluating suitability of SGD-based paper",
+      "prompt": "Is Large-Scale Machine Learning with Stochastic Gradient Descent (ICML 2010) primarily methodological and aligned with classical SVM training?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "It clarified that the paper focuses on optimization for classical convex models including SVMs, making it methodologically valid.",
+      "student_verification": "I read the abstract and introduction of the ICML 2010 paper and confirmed that the main contribution is scalable SGD-based training.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Checking reproducibility and compute feasibility",
+      "prompt": "Can the SGD method described in this paper be reproduced using small public datasets without GPU?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "It confirmed that simplified experiments using sklearn’s SGDClassifier and small datasets would be acceptable.",
+      "student_verification": "I verified that SGDClassifier in sklearn implements similar stochastic optimization and can run on CPU using small datasets like Breast Cancer or synthetic data.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 4,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Comparing with other shortlisted complex papers",
+      "prompt": "Between Infinite SVM, Structural SVM, and Large-Scale Machine Learning with SGD, which one is safer for Part B implementation and Part C viva?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "It helped me understand that Bayesian and latent structural SVM papers are more mathematically heavy and risky.",
+      "student_verification": "I skimmed abstracts of the alternative papers and confirmed they involved more complex inference and structured prediction compared to SGD.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 5,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Understanding conceptual depth for Part C",
+      "prompt": "What are the main assumptions and failure cases of stochastic gradient descent when training SVMs?",
+      "llm_response_used": "Partially",
+      "how_it_helped": "It helped me anticipate conceptual questions about learning rate sensitivity, convergence stability, and feature scaling.",
+      "student_verification": "I cross-checked these points with class notes on convex optimization and SGD behavior.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 6,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Drafting justification for paper selection",
+      "prompt": "Help me write a clear and realistic justification for selecting Large-Scale Machine Learning with Stochastic Gradient Descent for Part A.",
+      "llm_response_used": "Yes",
+      "how_it_helped": "It helped me structure my reasoning clearly while keeping it aligned with the official constraints.",
+      "student_verification": "I edited the justification in my own words and ensured it accurately reflects my understanding of the paper.",
+      "confidence_level": 5
+    }
+  ],
+
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 4,
+      "prompt": "Between Infinite SVM, Structural SVM, and Large-Scale Machine Learning with SGD, which one is safer for Part B implementation and Part C viva?",
+      "why_important": "This directly influenced my final decision by helping me evaluate mathematical complexity and implementation risk."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "Is Large-Scale Machine Learning with Stochastic Gradient Descent (ICML 2010) primarily methodological and aligned with classical SVM training?",
+      "why_important": "This ensured that the paper satisfies the methodological requirement and falls under classical ML."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 3,
+      "prompt": "Can the SGD method described in this paper be reproduced using small public datasets without GPU?",
+      "why_important": "Reproducibility feasibility is critical for Part B, so this confirmation was important."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 1,
+      "prompt": "Suggest a classical machine learning paper from 2009–2012 that is methodological and feasible to reproduce.",
+      "why_important": "This initiated my structured selection process under strict constraints."
+    },
+    {
+      "rank": 5,
+      "interaction_id": 5,
+      "prompt": "What are the main assumptions and failure cases of stochastic gradient descent when training SVMs?",
+      "why_important": "This helped me prepare for conceptual discussion in Part C."
+    }
+  ],
+
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Part A. I have independently verified all publication details and constraints.",
+    "understanding_acknowledged": true,
+    "signature": "Udita",
+    "date": "2026-03-02"
+  }
+}
