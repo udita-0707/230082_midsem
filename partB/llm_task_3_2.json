@@ -1,0 +1,129 @@
+{
+  "student_metadata": {
+    "name": "Udita",
+    "roll_number": "230082",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "submission_date": "2026-03-12"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "provider": "OpenAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Design failure mode",
+      "prompt": "I need to demonstrate a failure mode for my grader. What's the best approach?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Gave me the core idea.",
+      "student_verification": "Linked back to Assumption 1.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Craft paraphrases",
+      "prompt": "Generate 6 computer science short answers that are semantically correct but use completely different words from the reference.",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Created the adversarial challenge set.",
+      "student_verification": "Checked word counts manually.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Evaluate model",
+      "prompt": "How do I run predictions specifically on this new challenge set?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Got the failing predictions.",
+      "student_verification": "Verified predictions were low.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 4,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Explain failure",
+      "prompt": "Why exactly does the model severely underpredict the grades here?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Formed the analysis paragraph.",
+      "student_verification": "Checked TF-IDF behavior.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 5,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Plot failure",
+      "prompt": "Show me how to plot the normal test set predictions vs the paraphrase challenge set predictions clearly.",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Created the failure mode visualization.",
+      "student_verification": "Checked image formatting.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 6,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Suggest fix",
+      "prompt": "What's a concrete modification I could propose to fix this lexical overlap dependency?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Gave me the required suggested modification.",
+      "student_verification": "Verified BERT captures deep semantics.",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "I need to demonstrate a failure mode for my grader. What's the best approach?",
+      "why_important": "Essential for completing design failure mode accurately."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "Generate 6 computer science short answers that are semantically correct but use completely different words from the reference.",
+      "why_important": "Essential for completing craft paraphrases accurately."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 3,
+      "prompt": "How do I run predictions specifically on this new challenge set?",
+      "why_important": "Essential for completing evaluate model accurately."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 4,
+      "prompt": "Why exactly does the model severely underpredict the grades here?",
+      "why_important": "Essential for completing explain failure accurately."
+    },
+    {
+      "rank": 5,
+      "interaction_id": 5,
+      "prompt": "Show me how to plot the normal test set predictions vs the paraphrase challenge set predictions clearly.",
+      "why_important": "Essential for completing plot failure accurately."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Task 3.2 in Part B.",
+    "understanding_acknowledged": true,
+    "signature": "Udita",
+    "date": "2026-03-12"
+  }
+}

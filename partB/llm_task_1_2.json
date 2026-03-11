@@ -1,0 +1,129 @@
+{
+  "student_metadata": {
+    "name": "Udita",
+    "roll_number": "230082",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "submission_date": "2026-03-12"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "provider": "OpenAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Brainstorm implicit assumptions",
+      "prompt": "What are some implicit assumptions made in the Mohler 2011 methodology?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Gave me a starting point for the task.",
+      "student_verification": "Confirmed these were not explicitly stated as limitations in the paper.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Analyze lexical overlap assumption",
+      "prompt": "Why is assuming lexical overlap equals semantic correctness problematic?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Helped articulate the paraphrase weakness.",
+      "student_verification": "Tested mental examples of paraphrasing.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Analyze graph syntax assumption",
+      "prompt": "Is dependency graph structure always a reliable indicator of answer quality?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Realized that bad grammar doesn't always strictly mean a wrong answer.",
+      "student_verification": "Read Section 6 where authors doubt standalone graph grading.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 4,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Analyze single reference assumption",
+      "prompt": "What happens if a student has a perfectly valid answer but it differs from the single reference?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Identified the bottleneck of instructor effort.",
+      "student_verification": "Checked paper dataset details (only 1 reference used).",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 5,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Generate violation scenarios",
+      "prompt": "Give me realistic student answer examples where the dependency graph assumption fails.",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Provided concrete violation scenarios for my report.",
+      "student_verification": "Manually verified the grammar of the examples.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 6,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Refine academic tone",
+      "prompt": "Help me rewrite these three assumptions and violation scenarios in a formal academic tone.",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Polished the final text.",
+      "student_verification": "Proofread.",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "What are some implicit assumptions made in the Mohler 2011 methodology?",
+      "why_important": "Essential for completing brainstorm implicit assumptions accurately."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "Why is assuming lexical overlap equals semantic correctness problematic?",
+      "why_important": "Essential for completing analyze lexical overlap assumption accurately."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 3,
+      "prompt": "Is dependency graph structure always a reliable indicator of answer quality?",
+      "why_important": "Essential for completing analyze graph syntax assumption accurately."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 4,
+      "prompt": "What happens if a student has a perfectly valid answer but it differs from the single reference?",
+      "why_important": "Essential for completing analyze single reference assumption accurately."
+    },
+    {
+      "rank": 5,
+      "interaction_id": 5,
+      "prompt": "Give me realistic student answer examples where the dependency graph assumption fails.",
+      "why_important": "Essential for completing generate violation scenarios accurately."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Task 1.2 in Part B.",
+    "understanding_acknowledged": true,
+    "signature": "Udita",
+    "date": "2026-03-12"
+  }
+}

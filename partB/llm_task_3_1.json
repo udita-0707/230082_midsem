@@ -1,0 +1,129 @@
+{
+  "student_metadata": {
+    "name": "Udita",
+    "roll_number": "230082",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "submission_date": "2026-03-12"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "provider": "OpenAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Design ablation",
+      "prompt": "How should I set up a two-component ablation study for my SVR grader?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Structured the experimental design.",
+      "student_verification": "Checked assignment ablation requirements.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Execute ablation logic",
+      "prompt": "If my class uses a FeatureConfig, how do I instantiate models with different feature sets?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Gave me the code pattern.",
+      "student_verification": "Checked model outputs to ensure features were dropped.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Interpret semantic drop",
+      "prompt": "What does it mean if removing the TruncatedSVD semantic feature causes a drop in performance?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Provided the analysis for Ablation 1.",
+      "student_verification": "Linked to LSA results in Table 5.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 4,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Interpret structural drop",
+      "prompt": "What does it mean if removing POS overlap has a very small impact?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Provided the analysis for Ablation 2.",
+      "student_verification": "Checked authors' own admission in Section 6.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 5,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Format result table",
+      "prompt": "How do I compile these results into a pandas format string table?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Cleaned up the output display.",
+      "student_verification": "Printed in jupyter notebook.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 6,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Plot results",
+      "prompt": "Write code to generate a side-by-side grouped bar chart showing RMSE and Pearson for the ablations.",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Created the final ablation plot.",
+      "student_verification": "Checked saved image.",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "How should I set up a two-component ablation study for my SVR grader?",
+      "why_important": "Essential for completing design ablation accurately."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "If my class uses a FeatureConfig, how do I instantiate models with different feature sets?",
+      "why_important": "Essential for completing execute ablation logic accurately."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 3,
+      "prompt": "What does it mean if removing the TruncatedSVD semantic feature causes a drop in performance?",
+      "why_important": "Essential for completing interpret semantic drop accurately."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 4,
+      "prompt": "What does it mean if removing POS overlap has a very small impact?",
+      "why_important": "Essential for completing interpret structural drop accurately."
+    },
+    {
+      "rank": 5,
+      "interaction_id": 5,
+      "prompt": "How do I compile these results into a pandas format string table?",
+      "why_important": "Essential for completing format result table accurately."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Task 3.1 in Part B.",
+    "understanding_acknowledged": true,
+    "signature": "Udita",
+    "date": "2026-03-12"
+  }
+}

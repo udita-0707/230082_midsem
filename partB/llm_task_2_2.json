@@ -1,0 +1,141 @@
+{
+  "student_metadata": {
+    "name": "Udita",
+    "roll_number": "230082",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "submission_date": "2026-03-12"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "provider": "OpenAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Setup SVR",
+      "prompt": "How do I set up a Support Vector Regressor in scikit-learn for grading?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Reminded me of the sklearn import syntax.",
+      "student_verification": "Checked sklearn docs.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Structure class",
+      "prompt": "Help me structure a Python class for extracting surface and semantic features.",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Provided an object-oriented skeleton.",
+      "student_verification": "Tested class instantiation.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Implement TF-IDF",
+      "prompt": "How do I implement TF-IDF cosine similarity between two columns of text in pandas efficiently?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Gave me the TfidfVectorizer logic.",
+      "student_verification": "Tested manual dot products.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 4,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Implement LSA feature",
+      "prompt": "How can I approximate the paper's LSA feature using TruncatedSVD on TF-IDF?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Showed me how to reduce dimensionality for semantic features.",
+      "student_verification": "Checked paper Section 3.3 LSA description.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 5,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Implement POS overlap",
+      "prompt": "What's a simple way to compute POS tag overlap ratio using NLTK?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Provided the lightweight structural feature.",
+      "student_verification": "Verified NLTK tags matched expectation.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 6,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Tune hyperparameters",
+      "prompt": "The paper mentions a linear kernel. What should I use for C and epsilon default values?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Avoided having to build a grid search.",
+      "student_verification": "Read footnote 11 in paper.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 7,
+      "date": "2026-03-12",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4o",
+      "purpose": "Compute metrics",
+      "prompt": "How do I compute Pearson correlation and RMSE on the test set predictions?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Provided the final metric calculations.",
+      "student_verification": "Checked numpy corrcoef usage.",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "How do I set up a Support Vector Regressor in scikit-learn for grading?",
+      "why_important": "Essential for completing setup svr accurately."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "Help me structure a Python class for extracting surface and semantic features.",
+      "why_important": "Essential for completing structure class accurately."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 3,
+      "prompt": "How do I implement TF-IDF cosine similarity between two columns of text in pandas efficiently?",
+      "why_important": "Essential for completing implement tf-idf accurately."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 4,
+      "prompt": "How can I approximate the paper's LSA feature using TruncatedSVD on TF-IDF?",
+      "why_important": "Essential for completing implement lsa feature accurately."
+    },
+    {
+      "rank": 5,
+      "interaction_id": 5,
+      "prompt": "What's a simple way to compute POS tag overlap ratio using NLTK?",
+      "why_important": "Essential for completing implement pos overlap accurately."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Task 2.2 in Part B.",
+    "understanding_acknowledged": true,
+    "signature": "Udita",
+    "date": "2026-03-12"
+  }
+}
